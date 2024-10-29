@@ -1,0 +1,39 @@
+h1{
+    text-transform: uppercase;
+    font-size: 4rem;
+    font-family:serif;
+    float: center;
+    color: rgb(3, 3, 3);
+    padding: 1.5rem;
+    text-align: center;
+    background-color: #13ecda;
+   
+}
+.nav{
+    float:right;
+    width: 100%;
+    background-color: #025dfc;
+    height: 7rem;
+   
+}
+ul{
+    
+    display: inline;
+}
+a{
+    text-decoration: none;
+    color: blanchedalmond;
+    background-color: #025dfc;
+}
+a:hover{
+    background: rgb(188, 151, 183);
+    
+}
+li{
+    background-color: #025dfc;
+    list-style: none;
+    padding: 2rem;
+    float: left;
+   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+   font-size: 1.5rem;
+}

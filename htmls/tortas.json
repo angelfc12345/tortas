@@ -1,0 +1,87 @@
+[
+    {
+        "modelo":"Torta Selva Negra",
+        "Porcion":20,
+        "Precio":80,
+        "imagen":"img/1.jpg",
+        "enlace":"enlaces/e1.html"
+    },
+    {
+        "modelo":"Torta Oreo",
+        "Porcion":22,
+        "Precio":90,
+        "imagen":"img/2.jpg",
+        "enlace":"enlaces/e2.html"
+    },
+    {
+        "modelo":"Torta Rosa   ",
+        "Porcion":20,
+        "Precio":100,
+        "imagen":"img/3.jpg",
+        "enlace":"enlaces/e3.html"
+    },
+    {
+        "modelo":"Tora Tres Leches",
+        "Porcion":15,
+        "Precio":110,
+        "imagen":"img/4.jpg",
+        "enlace":"enlaces/e4.html"
+    },
+    {
+        "modelo":"Torta",
+        "Porcion":20,
+        "Precio":80,
+        "imagen":"img/5.jpg",
+        "enlace":"enlaces/e5.html"
+    },
+    {
+        "modelo":"Torta de Chispas",
+        "Porcion":16,
+        "Precio":90,
+        "imagen":"img/6.jpg",
+        "enlace":"enlaces/e6.html"
+    },
+    {
+        "modelo":"Torta de Zanahoria",
+        "Porcion":20,
+        "Precio":80,
+        "imagen":"img2/11.jpg",
+        "enlace":"enlaces/e7.html"
+    },
+    {
+        "modelo":"Torta de Frutilla",
+        "Porcion":20,
+        "Precio":80,
+        "imagen":"img2/12.jpg",
+        "enlace":"enlaces/e8.html"
+    },
+    {
+        "modelo":"Torta de Cereza",
+        "Porcion":20,
+        "Precio":80,
+        "imagen":"img2/13.jpg",
+        "enlace":"enlaces/e9.html"
+    },
+    {
+        "modelo":"Torta",
+        "Porcion":20,
+        "Precio":80,
+        "imagen":"img2/14.jpg",
+        "enlace":"enlaces/e10.html"
+    },
+    {
+        "modelo":"Torta",
+        "Porcion":16,
+        "Precio":90,
+        "imagen":"img2/15.jpg",
+        "enlace":"enlaces/e11.html"
+    },
+    {
+        "modelo":"Torta",
+        "Porcion":20,
+        "Precio":80,
+        "imagen":"img2/16.jpg",
+        "enlace":"enlaces/e12.html"
+    }
+    
+]

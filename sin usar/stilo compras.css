@@ -1,0 +1,145 @@
+@media(max-width:11000px){
+*{
+    margin: 0;
+    padding: 0;
+     box-sizing: border-box;
+}
+
+#fondo{
+    /* background-color: rgb(20, 222, 57); */
+     background-image: url(../T.VACACIONES/img3/desktop-wallpaper-bakery-world-baking-day.jpg);
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    min-height: 80vh;
+    padding: 80px 0;
+
+}
+h1{
+    font-size: 110px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: antiquewhite;
+    text-align: center;
+    width: 0;
+    padding: 0;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    min-height: 80vh;
+    padding: 80px 0;
+}
+
+
+.registro{
+    width: 400px;
+    background:black;
+    padding: 60px;
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 4px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:white;
+}
+.registro h3{
+    font-size: 22px;
+    margin-bottom: 20px;
+
+}
+.cont{
+    width: 100%;
+    background: #24303c;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 3px solid rgb(19, 183, 33);
+    font-size: 15px;
+}
+.registro p{
+    height: 40px;
+    text-align: center;
+    font-size: 18px;
+
+
+}
+
+.registro a{
+    color:beige ;
+    text-decoration: none;
+}
+.registro a:hover {
+    color:beige ;
+    text-decoration:underline;
+}
+.registro .botons{
+    width: 100%;
+    border: none;
+    background: #11bd53;
+    padding: 12px;
+    color: beige;
+    margin: 16px 0;
+    font-size: 15px;
+}
+.volver{
+    font-size: 20px;
+    text-align:right;
+    text-align: center;
+    /* width: 160px; */
+    background: rgb(7, 7, 7);
+    /* padding: 10px; */
+    border-radius: 4px;
+    margin-bottom: 16px;
+    border: 3px solid rgb(19, 183, 33);
+    text-decoration:underline;
+    margin-top: 100px;
+
+}
+/* .btn{
+    background-color: #11bd53;
+    border:2px solid green;
+    cursor:pointer;
+
+}
+.btn:hover{
+    background-color: #11bd53;
+    border:2px solid green;
+} */
+}
+
+input {
+    padding: 17px;
+    border-radius: 25px;
+    background-color: transparent;
+    border: 2px solid #603452;
+    margin-bottom: 30px;
+    outline: none;
+    color: #ffffff;
+    font-size: 16px;
+}
+
+::placeholder {
+    color: #89879B;
+}
+
+.btn {
+    background-color: #e53854;
+    border: 2px solid #e53854;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #f33f5a;
+    border: 2px solid #f33f5a;
+}
+
+@media(max-width:991px) {
+
+    body {
+        padding: 30px;
+    }
+
+    form {
+        width: 340px;
+    }
+}

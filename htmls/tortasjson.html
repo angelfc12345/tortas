@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>json</title>
+    <link rel="stylesheet" href="../css/tortas.css">
+    <style>
+        body{
+            background-color: aqua;
+            margin: 0;
+            padding: 0;
+        }
+        .autos{
+          border-style: outset;
+          width: 100%;
+          height: 37rem;
+          padding: 20px;
+          margin: 20px;
+          background-color: cadetblue;
+
+        }
+        .boton-verde{
+            width: 5rem;
+            background-color: rgb(209, 23, 10);
+            border-style: ridge;
+            padding: 10px;
+            text-decoration: none;
+            border-radius: 10%;
+        }
+        .principal{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+            row-gap: 5rem;
+            column-gap: 5rem;
+            padding: 2rem;
+            margin: 2rem;
+
+        }
+        .autitos{
+            display: grid;
+            margin: auto;
+            place-items: center;
+
+        }
+        p{
+            font-family: monospace;
+            font-size: smaller;
+        }
+        img{
+            width:20.5rem;
+            height: 15rem;
+            border: ridge;
+        }
+        h1{
+            font-size: 10rem;
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: 70;
+            text-align: center;
+        }
+        h2,h3{
+            font-size: 2rem;
+            font-family: 'Courier New', Courier, monospace;
+            font-weight: 700;
+            text-align: center;
+        }
+        .datos{
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 2rem;
+        }
+
+    </style>
+
+</head>
+<body>
+    <h1>PRODUCTOS</h1>
+<div class="nav">
+    <ul>
+      <li><a href="../indexprin.html">Menu</a></li>
+     
+      <li><a href="../proyecto tortas/index.html">Carrito</a></li>
+      <li><a href="#">Acerca de </a></li>
+      <li><a href="#">Sucursales</a></li>
+      <li><a href="#">Preguntas Frecuentes</a></li>
+    </ul>
+  </div>
+    <main class="principal">
+
+    </main>
+    <script>
+        const getCarros = async ()=>{
+            const response = await fetch("tortas.json")
+            const data = await response.json();
+            let out = '<div class="principal">';
+                data.forEach((productos)=> {
+                    const tabla1 = document.querySelector('.autitos .datos')
+                    out+= `
+                    <div clas="autos"><div class="autitos"><h3>${productos.modelo}</h3>
+                        <img src="${productos.imagen}">
+                        
+                            <p><a href="${productos.enlace}" class="botom boton-verde">Ver Producto</a></p>
+                            </div></div>
+                            `
+                })
+                document.querySelector('.principal').innerHTML=out}
+                    getCarros()
+    </script>
+
+<div class="nav">
+    <ul>
+      <li><a href="../indexprin.html">Menu</a></li>
+     
+      <li><a href="../T.VACACIONES/proyecto tortas/index.html">Carrito</a></li>
+      <li><a href="#">Acerca de </a></li>
+      <li><a href="#">Sucursales</a></li>
+      <li><a href="#">Preguntas Frecuentes</a></li>
+    </ul>
+  </div>
+
+</body>
+</html>
